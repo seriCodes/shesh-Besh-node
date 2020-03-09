@@ -1,0 +1,40 @@
+    .baseStyleDataRow{
+    color: turquoise; 
+    border-style: solid; box-sizing: border-box; 
+            width: 2.4cm; height: 10cm; 
+            position:relative; left: 0.75cm; top:0.5cm; 
+            float: left;
+            border-color: black;       
+}
+.secondSection{
+    position:relative; left: 0.5; top:0.5cm; 
+}
+#clearFloat{
+    clear: both;
+}
+.secondRow{    
+    float: right;
+            position:relative; left:-0.5cm; top:2.35cm; 
+}
+.secondSectionforSecondRow{
+    position:relative; left:-1.cm; top:2.35cm; 
+}
+
+.board{  
+    box-sizing: content-box;
+    width: 31.5cm;
+    height:22.5cm;    
+    background-image: url("./backgammonBoardImg.gif");
+    background-repeat: no-repeat;   
+}
+.eatenDiv{
+    width: 1.4cm;
+}
+#whiteChecerksEaten{
+    color: rgb(224, 64, 203);
+}
+#blackChecerksEaten{
+    color: rgb(224, 64, 203);
+}
+
+

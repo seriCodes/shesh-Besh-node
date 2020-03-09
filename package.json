@@ -1,0 +1,35 @@
+{
+  "name": "backgammon-league",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/dev.env  nodemon --inspect src/index.js",
+    "deletTests": "node devAdditions/deleteAllTests.js",
+    "start": "node src/index.js",
+    "runDB": "c:/Users/saars/mongodb/bin/mongod.exe --dbpath=c:/Users/saars/mongodb-data"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "dnode": "^1.2.2",
+    "ender": "^2.1.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.2",
+    "mongoose-unique-validator": "^2.0.3",
+    "npm-run": "^5.0.1",
+    "path": "^0.12.7",
+    "qs": "^6.9.1",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  },
+  "description": ""
+}

@@ -1,0 +1,4 @@
+remamber every user can make many sockets, meaning he 
+can play many games simultonuosly.
+so the rating change will need fetch what is in the data 
+base and not in the socket itself.
