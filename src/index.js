@@ -1,4 +1,4 @@
-console.log("check1")
+console.log("check")
 const userRouterAccess = require('./routers/userRouter')
 const testRouterAccess = require('./routers/testRouter')
 const roomDataUtilsAccess = require('./utils/roomData')
