@@ -24,7 +24,7 @@
     "mongoose-unique-validator": "^2.0.3",
     "npm-run": "^5.0.1",
     "path": "^0.12.7",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "request": "^2.88.2",
     "socket.io": "^2.3.0"
   },
